@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Screen</title>
+    <link rel="icon" type="image/png" href="https://static.vecteezy.com/system/resources/previews/024/190/108/original/cute-cartoon-cloud-kawaii-weather-illustrations-for-kids-free-png.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://png.pngtree.com/background/20221202/original/pngtree-cute-cloud-seamless-pattern-blue-and-white-vector-background-picture-image_1978463.jpg');
+            background-size: cover;
+            background-position: top; 
+            background-repeat: no-repeat; 
+        }
+        .registerr {
+            background-color: #77c3ec;
+            padding:30px ;
+            border-radius: 10px;
+            position: fixed;
+            top: 55%;
+            left: 68%;
+            transform: translate(-50%, -50%);
+        }
+        .loginform {
+            display: inline-block;
+            text-align: left;
+        }
+        label {
+            display: block;
+        }
+        .top_welcome{
+            text-align: center;
+            position: fixed;
+            top: 20%; 
+            right: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .cloudy{
+            position: fixed;
+            top: 75%;
+            left: 28%;
+            transform: translate(-50%, -50%);
+        }
+        h1{
+            font-size: 50px;
+            
+        }
+        h3 ,.wehehe{
+            text-align: center;
+            font-size: medium
+        }
+        input[type="submit"]{
+            color: rgb(8, 3, 3);
+            background-color: #c9deee;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        label {
+        font-size: 15px; 
+         }
+        .remember_me_pw {
+            display: inline-block;
+            margin-left: 5px; /* Adjust as needed */
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="top_welcome">
+        <h1>Cloud9 Society</h1>
+        <h3>Welcome to Cloud Society</h3>
+        <p class="wehehe">Chill on your own or make some friends</p>
+        
+    </div>
+    <div class="registerr">
+        <form class="loginform">
+            <center><h5>Log in</h5></center>
+            <center><p>New Here? <u>Sign Up</u></p></center>
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" name="uname"><br><br>
+            <label for="passwordd">Password:</label> 
+            <input type="password" id="passwordd" name="passwordd"><br><br>
+            <input type="checkbox" id="checkbox" name="remember_me">
+            <label for="checkbox" class="remember_me_pw">Remember me</label>
+            <center><p><u>Forgot Password?</u></p></center>
+            <center><input type="submit" value="Log In"></center>
+        </form>
+    </div>
+    <div class="cloudy">
+        <img src="https://i.pinimg.com/originals/fd/8a/d7/fd8ad7132f5bff554291d65f9be17945.gif" alt="Cloud" width="480" height="480">
+    </div>
+</body>
+</html>
